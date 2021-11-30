@@ -8,7 +8,7 @@ class App {
     constructor() {
         this.server = express();
         mongoose.connect(
-            'mongodb+srv://marcello265:melao153@cursoapi.gyfiv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+            'Conexao com o banco',
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
